@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table, td, th {
+    border: 1px solid #f6e7cd; /* Light pastel yellow for borders */
+    text-align: center;    
+    padding: 10px;
+    border-bottom: 2px solid #e6d3aa; /* Slightly darker pastel yellow */
+}
+table {
+    border-collapse: collapse;
+    width: 90%;     
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #e6d3aa;
+}
+th {
+    height: 50px;
+    background-color: #f6d77b; /* Pastel yellow */
+    color: #fff9e5; /* Light off-white */
+}
+body {
+    background-color: #fff9e5; /* Very light pastel yellow */
+    color: #d1a054; /* Soft yellow-orange for text */
+    text-align: center;
+    padding: 5px;
+    margin: 1rem;
+}
+tr:hover {
+    background-color: #e6d3aa; /* Soft pastel yellow on hover */
+    color: #fff9e5; /* Light off-white */
+}
+button {
+    background-color: #f6d77b; /* Button background pastel yellow */
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #fff9e5; /* Lighter pastel yellow on hover */
+    border: 0px;
+    padding: 10px;
+    color: #e6d3aa; /* Darker pastel yellow for text */
+}
+.button {
+    transition-duration: 1s;
+}
+.a {
+    background-color: #f6d77b; /* Pastel yellow link button */
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a:hover {
+    background-color: #fff9e5; /* Lighter yellow on hover */
+    border: 0px;
+    padding: 10px;
+    color: #e6d3aa; /* Darker pastel yellow */
+}
+form {
+    background-color: #fff9e5; /* Very light pastel yellow for form background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+input {
+    width: 100%;
+}

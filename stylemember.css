@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table, td, th {
+    border: 1px solid #e0e4cc; /* Light pastel green for borders */
+    text-align: center;    
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;     
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    height: 50px;
+    background-color: #a4d4ae; /* Pastel green */
+    color: #f4f8e3; /* Very light pastel yellow for contrast */
+}
+body {
+    background-color: #f0f9e8; /* Very light pastel green */
+    color: #769f82; /* Muted green for text */
+    text-align: center;
+    padding: 5px;
+    margin: 1rem;
+}
+tr:hover {
+    background-color: #cfe8d4; /* Light pastel green on hover */
+    color: #5c8f72; /* Darker green on hover */
+}
+button {
+    background-color: #a4d4ae; /* Button background pastel green */
+    color: #f4f8e3; /* Light off-white text */
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #7bbd97; /* Darker pastel green on hover */
+    border: 0px;
+    padding: 10px;
+    color: #f4f8e3;
+}
+.button {
+    transition-duration: 1s;
+}
+.a {
+    background-color: #a4d4ae; /* Pastel green link button */
+    color: #f4f8e3;
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a:hover {
+    background-color: #7bbd97; /* Darker pastel green on hover */
+    border: 0px;
+    padding: 10px;
+    color: #f4f8e3;
+}
+form {
+    background-color: #f4f8e3; /* Light pastel yellow-green form background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+input {
+    width: 100%;
+}
